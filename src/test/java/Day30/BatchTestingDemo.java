@@ -15,7 +15,7 @@ public void googleSearch()throws InterruptedException {
 WebDriverManager.chromedriver().setup();
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.google.com");
-driver.findElement(By.xpath("//input[@name= 'q']")).sendKeys("Laptop" + Keys.ENTER);
+driver.findElement(By.xpath("//input[@name= 'q']")).sendKeys("Laptop 5" + Keys.ENTER);
 Thread.sleep(3000);
 driver.close();
 driver.quit();
